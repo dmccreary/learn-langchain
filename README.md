@@ -2,7 +2,7 @@
 
 Here is the link to the documentation:
 
-[https://dmccreary.github.io/learn-langchain/][https://dmccreary.github.io/learn-langchain/]
+[https://dmccreary.github.io/learn-langchain/][https://dmccreary.github.io/learn-langchain/)
 
 The documentation build instructions are here:
 
