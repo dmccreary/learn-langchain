@@ -10,6 +10,7 @@ nav:
   - About: about.md
   - OpenAI Settings: openai.md
   - Pinecone Settings: pinecone.md
+  - Jupyter Notebook: jupyter-notebook.md
   - References: references.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md

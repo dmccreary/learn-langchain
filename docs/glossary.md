@@ -129,6 +129,9 @@ Tokenization is the process of converting text into smaller units, called tokens
 #### Training vs Inference
 In the context of machine learning, 'Training' refers to the process of teaching a model to make predictions or decisions, typically by feeding it a large set of labeled data. 'Inference,' on the other hand, is the stage where the trained model is used to make predictions on new, unseen data. Training is a compute-intensive process that adjusts the model's parameters, while inference involves applying these parameters to make quick decisions or analysis.
 
+## User Experience
+
+
 #### Vector Stores
 Vector stores are specialized databases designed to efficiently store and retrieve high-dimensional data, such as vectors produced by machine learning models. They are essential in tasks like similarity search and recommendation systems.
 
@@ -138,3 +141,15 @@ Visual Studio Code (VS Code) is a free, open-source code editor developed by Mic
 #### Processing and P5.js
 Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. P5.js is a JavaScript library that has the same goals, focusing on making coding accessible for artists, designers, educators, and beginners. Both Processing and P5.js are used to create graphics and interactive experiences.
 
+#### Responsive Design
+
+Techniques ensuring simulations and other user interfaces work well on various devices and screen sizes.
+
+#### Smart Board
+
+An interactive whiteboard, also known as an interactive board or smart board,
+is a large interactive display board in the form factor of a whiteboard.
+In many classrooms, an instructor can stand at the front of a classroom
+and move sliders below a simulation to control the simulation.
+
+For effective use of smart boards, we use a minimum text size of 16 for control labels and values.

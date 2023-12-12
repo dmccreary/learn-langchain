@@ -18,3 +18,9 @@ as prompt engineering.
 Students with a strong mastery of Python and machine learning can focus
 on topics such as building knowledge graphs to support intelligent agents
 that facilitate adaptive learning.
+
+## Related Courses and MicroSites
+
+* [Prompt Engineering](https://dmccreary.github.io/prompt-class/)
+* [Generative AI for Teachers](https://www.coderdojotc.org/chatgpt-for-teachers/)
+* [MicroSims](https://dmccreary.github.io/microsims/)
