@@ -1,72 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://dmccreary.github.io/microsims/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/about/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/about/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/contacts/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/advanced-topics/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/env-test/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/contacts/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/glossary/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/env-test/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/how-we-built-this-site/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/glossary/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/jupyter-notebook/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/how-we-built-this-site/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/langchain-in-13-minutes/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/jupyter-notebook/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/license/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/langchain-in-13-minutes/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/openai/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/license/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/pinecone/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/openai/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/presentations/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/pinecone/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/references/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/presentations/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/microsims/vscode/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/references/</loc>
+         <lastmod>2023-12-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/vscode/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
