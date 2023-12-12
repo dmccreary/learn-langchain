@@ -25,8 +25,8 @@ PINECONE_ENV="gcp-starter"
 
 ## Pinecone Project
 
-![Pinecone admin project](./img/pinecone-admin-project.png)
+![Pinecone admin project](../img/pinecone-admin-project.png)
 
 ## Pinecone AI Agent API Key
 
-![Pinecone admin project](./img/pinecone-admin-api-key)
+![Pinecone admin project](../img/pinecone-admin-api-key)

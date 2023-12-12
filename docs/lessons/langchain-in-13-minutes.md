@@ -17,7 +17,7 @@ from dotenv import load_dotenv,find_dotenv
 load_dotenv(find_dotenv())
 ```
 
-![](,./img/jupyter-imports.png)
+![](../img/jupyter-imports.png)
 
 ## Run Basic Query
 

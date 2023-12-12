@@ -18,7 +18,7 @@ nav:
     - Introduction: lessons/index.md
     - Hello World: lessons/01-hello-world.md
     - LangChain in 13 Minutes: lessons/langchain-in-13-minutes.md
-  - Advanced Topics: advanced.md
+  - Advanced Topics: advanced-topics.md
   - References: references.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md

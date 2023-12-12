@@ -16,6 +16,6 @@ student.
 Please read the [About Page](./about.md) for details on
 the course prerequisites and goals.  If you are using
 these materials in your own classes, be sure
-to read the [Creative Commons License](.license.md) page.
+to read the [Creative Commons License](./license.md) page.
 
 [Dan McCreary on LinkedIn](https://www.linkedin.com/in/danmccreary/)
