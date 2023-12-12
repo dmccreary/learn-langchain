@@ -1,4 +1,10 @@
-# Jupyter Notebook
+# LangChain in 13 Minutes
+
+```py
+python-dotenv==1.0.0
+langchain==0.0.137
+pinecone-client==2.2.1
+```
 
 Here are some samples of using the LangChain APIs.
 
@@ -11,7 +17,7 @@ from dotenv import load_dotenv,find_dotenv
 load_dotenv(find_dotenv())
 ```
 
-![](./img/jupyter-imports.png)
+![](,./img/jupyter-imports.png)
 
 ## Run Basic Query
 
@@ -23,7 +29,7 @@ llm = OpenAI(model_name="text-davinci-003")
 llm("explain large language models in one sentence")
 ```
 
-![](jupyter-run-basic-query.png)
+![](../img/jupyter-run-basic-query.png)
 
 ## Run LangChain Imports
 
@@ -55,14 +61,14 @@ response=chat(messages)
 print(response.content,end='\n')
 ```
 
-![](./img/jupyter-gen-python-code.png)
+![](../img/jupyter-gen-python-code.png)
 
 ## Import Prompts
-![](./img/jupyter-import-prompts.png)
+![](../img/jupyter-import-prompts.png)
 
 ## Run With Prompt Template
 
-![](./img/jupyter-run-prompt-template.png)
+![](../img/jupyter-run-prompt-template.png)
 
 ## Use LangChain to Build a Prompt Only Response Pipeline
 

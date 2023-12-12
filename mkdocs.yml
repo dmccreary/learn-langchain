@@ -8,9 +8,16 @@ repo_url: 'https://github.com/dmccreary/learn-langchain'
 nav:
   - Home: index.md
   - About: about.md
-  - OpenAI Settings: openai.md
-  - Pinecone Settings: pinecone.md
-  - Jupyter Notebook: jupyter-notebook.md
+  - Set Up:
+    - Introduction: setup/index.md
+    - OpenAI Settings: setup/openai.md
+    - Pinecone Settings: setup/pinecone.md
+    - Jupyter Notebook: setup/jupyter-notebook.md
+    - Environment Test: setup/env-test.md
+  - Lessons:
+    - Introduction: lessons/index.md
+    - Hello World: lessons/01-hello-world.md
+    - LangChain in 13 Minutes: lessons/langchain-in-13-minutes.md
   - Advanced Topics: advanced.md
   - References: references.md
   - Glossary: glossary.md
