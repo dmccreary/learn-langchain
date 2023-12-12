@@ -8,6 +8,8 @@ repo_url: 'https://github.com/dmccreary/microsims'
 nav:
   - Home: index.md
   - About: about.md
+  - OpenAI Settings: openai.md
+  - Pinecone Settings: pinecone.md
   - References: references.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
