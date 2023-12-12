@@ -1,9 +1,9 @@
-site_name: Micro Simulations for Education
-site_description: 'Resources for teaching classes on Micro Simulators using generative AI and ChatGPT.'
+site_name: Intelligent Agents for Education
+site_description: 'Resources for teaching classes on intelligent agents using generative AI, ChatGPT. Python and LangChain.'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
-site_url: 'https://dmccreary.github.io/microsims'
-repo_url: 'https://github.com/dmccreary/microsims'
+site_url: 'https://dmccreary.github.io/learn-langchain'
+repo_url: 'https://github.com/dmccreary/learn-langchain'
 
 nav:
   - Home: index.md
@@ -11,6 +11,7 @@ nav:
   - OpenAI Settings: openai.md
   - Pinecone Settings: pinecone.md
   - Jupyter Notebook: jupyter-notebook.md
+  - Advanced Topics: advanced.md
   - References: references.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
