@@ -9,3 +9,12 @@
 **Programming Knowledge:** Since LangChain involves working with APIs and possibly coding for integration, a foundational knowledge of programming (preferably in Python) is essential. This should include understanding of basic programming concepts like variables, loops, functions, and data structures.
 
 **GitHub Experience:** Basic familiarity with Git and GitHub, including cloning repositories, committing changes, and understanding version control concepts.
+
+## Adaptive Learning
+
+Our goal is to provide content for multiple learning pathways.  Students who are new to generative AI can focus on less technical topics such
+as prompt engineering.
+
+Students with a strong mastery of Python and machine learning can focus
+on topics such as building knowledge graphs to support intelligent agents
+that facilitate adaptive learning.
