@@ -12,21 +12,25 @@
         <meta name="author" content="Dan McCreary">
       
       
-        <link rel="canonical" href="https://dmccreary.github.io/learn-langchain/vscode/">
+        <link rel="canonical" href="https://dmccreary.github.io/learn-langchain/setup/pinecone/">
       
       
+        <link rel="prev" href="../openai/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+        <link rel="next" href="../jupyter-notebook/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>Setting up Visual Studio Code - Intelligent Agents for Education</title>
+        <title>Pinecone Settings - Intelligent Agents for Education</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
       
 
@@ -45,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -64,11 +68,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Setting up Visual Studio Code - Intelligent Agents for Education" >
+        <meta  property="og:title"  content="Pinecone Settings - Intelligent Agents for Education" >
       
         <meta  property="og:description"  content="Resources for teaching classes on intelligent agents using generative AI, ChatGPT. Python and LangChain." >
       
-        <meta  property="og:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/vscode.png" >
+        <meta  property="og:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/setup/pinecone.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -76,15 +80,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://dmccreary.github.io/learn-langchain/vscode/" >
+        <meta  property="og:url"  content="https://dmccreary.github.io/learn-langchain/setup/pinecone/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Setting up Visual Studio Code - Intelligent Agents for Education" >
+        <meta  name="twitter:title"  content="Pinecone Settings - Intelligent Agents for Education" >
       
         <meta  name="twitter:description"  content="Resources for teaching classes on intelligent agents using generative AI, ChatGPT. Python and LangChain." >
       
-        <meta  name="twitter:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/vscode.png" >
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/setup/pinecone.png" >
       
     
     
@@ -100,7 +104,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#setting-up-visual-studio-code" class="md-skip">
+        <a href="#pinecone" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +120,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Intelligent Agents for Education" class="md-header__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
+    <a href="../.." title="Intelligent Agents for Education" class="md-header__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -136,7 +140,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Setting up Visual Studio Code
+              Pinecone Settings
             
           </span>
         </div>
@@ -223,7 +227,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Intelligent Agents for Education" class="md-nav__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
+    <a href="../.." title="Intelligent Agents for Education" class="md-nav__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -253,7 +257,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -273,7 +277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -288,6 +292,69 @@
     
       
       
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Set Up
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Set Up
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
   
   
   
@@ -305,15 +372,36 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
     
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
   
+  <span class="md-ellipsis">
+    Pinecone Settings
+  </span>
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../pinecone/" class="md-nav__link">
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -322,12 +410,60 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#environment-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Environment Settings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pinecone-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pinecone Project
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pinecone-ai-agent-api-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pinecone AI Agent API Key
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -345,6 +481,83 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../env-test/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Environment Test
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../lessons/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Lessons
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
     
       
       
@@ -353,7 +566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../advanced.md" class="md-nav__link">
+      <a href="../../advanced.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -373,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../references/" class="md-nav__link">
+      <a href="../../references/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -393,7 +606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../glossary/" class="md-nav__link">
+      <a href="../../glossary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -413,7 +626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-we-built-this-site/" class="md-nav__link">
+      <a href="../../how-we-built-this-site/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -433,7 +646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../license/" class="md-nav__link">
+      <a href="../../license/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -453,7 +666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contacts/" class="md-nav__link">
+      <a href="../../contacts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -493,18 +706,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#intall-the-jupyter-notebook-extension" class="md-nav__link">
+  <a href="#environment-settings" class="md-nav__link">
     <span class="md-ellipsis">
-      Intall the Jupyter Notebook Extension
+      Environment Settings
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#configure-to-use-the-langchain-conda-env" class="md-nav__link">
+  <a href="#pinecone-project" class="md-nav__link">
     <span class="md-ellipsis">
-      Configure to use the LangChain Conda Env
+      Pinecone Project
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pinecone-ai-agent-api-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pinecone AI Agent API Key
     </span>
   </a>
   
@@ -528,12 +750,28 @@
   
 
 
-<h1 id="setting-up-visual-studio-code">Setting up Visual Studio Code</h1>
-<h2 id="intall-the-jupyter-notebook-extension">Intall the Jupyter Notebook Extension</h2>
-<p>Code -&gt; Settings -&gt; Extensions -&gt;</p>
-<p><img alt="" src="../img/vscode-extension-jupyter.png" /></p>
-<h2 id="configure-to-use-the-langchain-conda-env">Configure to use the LangChain Conda Env</h2>
-<p><img alt="" src="../img/vscode-conda.png" /></p>
+<h1 id="pinecone">Pinecone</h1>
+<p>Free Tier:</p>
+<p>Limited to one index and one project.
+Community Support Only</p>
+<h2 id="environment-settings">Environment Settings</h2>
+<p>Make sure to put .env in your .gitignore file to
+make sure that you don't put this fine on GitHub</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nv">PINECONE_ENV</span><span class="o">=</span><span class="s2">&quot;...&quot;</span>
+<span class="nv">PINECONE_API_KEY</span><span class="o">=</span><span class="s2">&quot;...&quot;</span>
+</code></pre></div></td></tr></table></div>
+<p>The free version uses the Google Cloud Platform:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;...&quot;</span>
+<span class="nv">PINECONE_API_KEY</span><span class="o">=</span><span class="s2">&quot;...&quot;</span>
+<span class="nv">PINECONE_ENV</span><span class="o">=</span><span class="s2">&quot;gcp-starter&quot;</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="pinecone-project">Pinecone Project</h2>
+<p><img alt="Pinecone admin project" src="./img/pinecone-admin-project.png" /></p>
+<h2 id="pinecone-ai-agent-api-key">Pinecone AI Agent API Key</h2>
+<p><img alt="Pinecone admin project" src="./img/pinecone-admin-api-key" /></p>
 
 
 
@@ -570,6 +808,44 @@
         <footer class="md-footer">
   
     
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../openai/" class="md-footer__link md-footer__link--prev" aria-label="Previous: OpenAI Settings">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                OpenAI Settings
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../jupyter-notebook/" class="md-footer__link md-footer__link--next" aria-label="Next: Jupyter Notebook">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Jupyter Notebook
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -593,10 +869,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>

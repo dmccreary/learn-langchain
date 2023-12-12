@@ -12,19 +12,25 @@
         <meta name="author" content="Dan McCreary">
       
       
+        <link rel="canonical" href="https://dmccreary.github.io/learn-langchain/setup/jupyter-notebook/">
       
       
+        <link rel="prev" href="../pinecone/">
       
-      <link rel="icon" href="/learn-langchain/assets/images/favicon.png">
+      
+        <link rel="next" href="../env-test/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>Intelligent Agents for Education</title>
+        <title>Jupyter Notebook - Intelligent Agents for Education</title>
       
     
     
-      <link rel="stylesheet" href="/learn-langchain/assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
       
 
@@ -43,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL("/learn-langchain/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -59,6 +65,32 @@
 
     
     
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Jupyter Notebook - Intelligent Agents for Education" >
+      
+        <meta  property="og:description"  content="Resources for teaching classes on intelligent agents using generative AI, ChatGPT. Python and LangChain." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/setup/jupyter-notebook.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/learn-langchain/setup/jupyter-notebook/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Jupyter Notebook - Intelligent Agents for Education" >
+      
+        <meta  name="twitter:description"  content="Resources for teaching classes on intelligent agents using generative AI, ChatGPT. Python and LangChain." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/setup/jupyter-notebook.png" >
+      
+    
     
   </head>
   
@@ -70,6 +102,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#jupyter-notebook" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -83,7 +120,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/learn-langchain/." title="Intelligent Agents for Education" class="md-header__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
+    <a href="../.." title="Intelligent Agents for Education" class="md-header__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -103,7 +140,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Jupyter Notebook
             
           </span>
         </div>
@@ -190,7 +227,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/learn-langchain/." title="Intelligent Agents for Education" class="md-nav__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
+    <a href="../.." title="Intelligent Agents for Education" class="md-nav__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -220,7 +257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -240,7 +277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -257,6 +294,8 @@
       
   
   
+    
+  
   
   
     
@@ -278,28 +317,138 @@
     
     
     
-      
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
-  
-  
-    <a href="/learn-langchain/setup/" class="md-nav__link">
-      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     Set Up
   </span>
   
 
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Set Up
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../openai/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenAI Settings
+  </span>
   
 
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pinecone/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pinecone Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Jupyter Notebook
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../env-test/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Environment Test
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -334,7 +483,7 @@
         
   
   
-    <a href="/learn-langchain/lessons/" class="md-nav__link">
+    <a href="../../lessons/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -360,7 +509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/advanced.md" class="md-nav__link">
+      <a href="../../advanced.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -380,7 +529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/references/" class="md-nav__link">
+      <a href="../../references/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -400,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/glossary/" class="md-nav__link">
+      <a href="../../glossary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -420,7 +569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/how-we-built-this-site/" class="md-nav__link">
+      <a href="../../how-we-built-this-site/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -440,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/license/" class="md-nav__link">
+      <a href="../../license/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -460,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/contacts/" class="md-nav__link">
+      <a href="../../contacts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -490,6 +639,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -501,8 +652,34 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+  
+
+
+<h1 id="jupyter-notebook">Jupyter Notebook</h1>
+<p>You will need to make sure you can run Jupyter Notebooks.</p>
+<p>You can load the Jupyter Notebook Extensions</p>
+<p><img alt="" src="../../img/vscode-extension-jupyter.png" /></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
               </article>
             </div>
           
@@ -520,6 +697,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../pinecone/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pinecone Settings">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Pinecone Settings
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../env-test/" class="md-footer__link md-footer__link--next" aria-label="Next: Environment Test">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Environment Test
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -544,10 +759,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/learn-langchain/", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "/learn-langchain/assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/learn-langchain/assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>

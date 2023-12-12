@@ -12,25 +12,25 @@
         <meta name="author" content="Dan McCreary">
       
       
-        <link rel="canonical" href="https://dmccreary.github.io/learn-langchain/jupyter-notebook/">
+        <link rel="canonical" href="https://dmccreary.github.io/learn-langchain/lessons/langchain-in-13-minutes/">
       
       
-        <link rel="prev" href="../pinecone/">
+        <link rel="prev" href="../01-hello-world/">
       
       
-        <link rel="next" href="../references/">
+        <link rel="next" href="../../references/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>Jupyter Notebook - Intelligent Agents for Education</title>
+        <title>LangChain in 13 Minutes - Intelligent Agents for Education</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
       
 
@@ -49,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -68,11 +68,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Jupyter Notebook - Intelligent Agents for Education" >
+        <meta  property="og:title"  content="LangChain in 13 Minutes - Intelligent Agents for Education" >
       
         <meta  property="og:description"  content="Resources for teaching classes on intelligent agents using generative AI, ChatGPT. Python and LangChain." >
       
-        <meta  property="og:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/jupyter-notebook.png" >
+        <meta  property="og:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/lessons/langchain-in-13-minutes.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -80,15 +80,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://dmccreary.github.io/learn-langchain/jupyter-notebook/" >
+        <meta  property="og:url"  content="https://dmccreary.github.io/learn-langchain/lessons/langchain-in-13-minutes/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Jupyter Notebook - Intelligent Agents for Education" >
+        <meta  name="twitter:title"  content="LangChain in 13 Minutes - Intelligent Agents for Education" >
       
         <meta  name="twitter:description"  content="Resources for teaching classes on intelligent agents using generative AI, ChatGPT. Python and LangChain." >
       
-        <meta  name="twitter:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/jupyter-notebook.png" >
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/lessons/langchain-in-13-minutes.png" >
       
     
     
@@ -104,7 +104,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#jupyter-notebook" class="md-skip">
+        <a href="#langchain-in-13-minutes" class="md-skip">
           Skip to content
         </a>
       
@@ -120,7 +120,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Intelligent Agents for Education" class="md-header__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
+    <a href="../.." title="Intelligent Agents for Education" class="md-header__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -140,7 +140,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Jupyter Notebook
+              LangChain in 13 Minutes
             
           </span>
         </div>
@@ -227,7 +227,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Intelligent Agents for Education" class="md-nav__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
+    <a href="../.." title="Intelligent Agents for Education" class="md-nav__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -257,7 +257,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -277,7 +277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -296,16 +296,48 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../openai/" class="md-nav__link">
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
   
+  
+    <a href="../../setup/" class="md-nav__link">
+      
+  
   <span class="md-ellipsis">
-    OpenAI Settings
+    Set Up
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -314,14 +346,73 @@
       
   
   
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Lessons
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Lessons
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="../pinecone/" class="md-nav__link">
+      <a href="../01-hello-world/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Pinecone Settings
+    Hello World
   </span>
   
 
@@ -329,9 +420,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
     
@@ -350,7 +442,7 @@
           
   
   <span class="md-ellipsis">
-    Jupyter Notebook
+    LangChain in 13 Minutes
   </span>
   
 
@@ -361,7 +453,7 @@
         
   
   <span class="md-ellipsis">
-    Jupyter Notebook
+    LangChain in 13 Minutes
   </span>
   
 
@@ -461,6 +553,14 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
@@ -469,7 +569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../advanced.md" class="md-nav__link">
+      <a href="../../advanced.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -489,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../references/" class="md-nav__link">
+      <a href="../../references/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -509,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../glossary/" class="md-nav__link">
+      <a href="../../glossary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -529,7 +629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-we-built-this-site/" class="md-nav__link">
+      <a href="../../how-we-built-this-site/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -549,7 +649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../license/" class="md-nav__link">
+      <a href="../../license/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -569,7 +669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contacts/" class="md-nav__link">
+      <a href="../../contacts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -698,7 +798,13 @@
   
 
 
-<h1 id="jupyter-notebook">Jupyter Notebook</h1>
+<h1 id="langchain-in-13-minutes">LangChain in 13 Minutes</h1>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">python</span><span class="o">-</span><span class="n">dotenv</span><span class="o">==</span><span class="mf">1.0.0</span>
+<span class="n">langchain</span><span class="o">==</span><span class="mf">0.0.137</span>
+<span class="n">pinecone</span><span class="o">-</span><span class="n">client</span><span class="o">==</span><span class="mf">2.2.1</span>
+</code></pre></div></td></tr></table></div>
 <p>Here are some samples of using the LangChain APIs.</p>
 <h2 id="load-environment-variables">Load Environment Variables</h2>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
@@ -709,7 +815,7 @@
 <span class="kn">from</span> <span class="nn">dotenv</span> <span class="kn">import</span> <span class="n">load_dotenv</span><span class="p">,</span><span class="n">find_dotenv</span>
 <span class="n">load_dotenv</span><span class="p">(</span><span class="n">find_dotenv</span><span class="p">())</span>
 </code></pre></div></td></tr></table></div>
-<p><img alt="" src="../img/jupyter-imports.png" /></p>
+<p><img alt="" src=",./img/jupyter-imports.png" /></p>
 <h2 id="run-basic-query">Run Basic Query</h2>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
@@ -721,7 +827,7 @@
 <span class="n">llm</span> <span class="o">=</span> <span class="n">OpenAI</span><span class="p">(</span><span class="n">model_name</span><span class="o">=</span><span class="s2">&quot;text-davinci-003&quot;</span><span class="p">)</span>
 <span class="n">llm</span><span class="p">(</span><span class="s2">&quot;explain large language models in one sentence&quot;</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
-<p><img alt="" src="jupyter-run-basic-query.png" /></p>
+<p><img alt="" src="../../img/jupyter-run-basic-query.png" /></p>
 <h2 id="run-langchain-imports">Run LangChain Imports</h2>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
@@ -758,11 +864,11 @@ The API will concatenate them together and send it to OpenAI.</p>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">content</span><span class="p">,</span><span class="n">end</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
-<p><img alt="" src="../img/jupyter-gen-python-code.png" /></p>
+<p><img alt="" src="../../img/jupyter-gen-python-code.png" /></p>
 <h2 id="import-prompts">Import Prompts</h2>
-<p><img alt="" src="../img/jupyter-import-prompts.png" /></p>
+<p><img alt="" src="../../img/jupyter-import-prompts.png" /></p>
 <h2 id="run-with-prompt-template">Run With Prompt Template</h2>
-<p><img alt="" src="../img/jupyter-run-prompt-template.png" /></p>
+<p><img alt="" src="../../img/jupyter-run-prompt-template.png" /></p>
 <h2 id="use-langchain-to-build-a-prompt-only-response-pipeline">Use LangChain to Build a Prompt Only Response Pipeline</h2>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
@@ -836,7 +942,7 @@ The API will concatenate them together and send it to OpenAI.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../pinecone/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pinecone Settings">
+          <a href="../01-hello-world/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Hello World">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -846,14 +952,14 @@ The API will concatenate them together and send it to OpenAI.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Pinecone Settings
+                Hello World
               </div>
             </div>
           </a>
         
         
           
-          <a href="../references/" class="md-footer__link md-footer__link--next" aria-label="Next: References">
+          <a href="../../references/" class="md-footer__link md-footer__link--next" aria-label="Next: References">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
@@ -893,10 +999,10 @@ The API will concatenate them together and send it to OpenAI.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>

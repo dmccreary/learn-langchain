@@ -21,11 +21,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/learn-langchain/env-test/</loc>
-         <lastmod>2023-12-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://dmccreary.github.io/learn-langchain/glossary/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
@@ -36,27 +31,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/learn-langchain/jupyter-notebook/</loc>
-         <lastmod>2023-12-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://dmccreary.github.io/learn-langchain/langchain-in-13-minutes/</loc>
-         <lastmod>2023-12-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://dmccreary.github.io/learn-langchain/license/</loc>
-         <lastmod>2023-12-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://dmccreary.github.io/learn-langchain/openai/</loc>
-         <lastmod>2023-12-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://dmccreary.github.io/learn-langchain/pinecone/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -71,7 +46,47 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dmccreary.github.io/learn-langchain/vscode/</loc>
+         <loc>https://dmccreary.github.io/learn-langchain/lessons/</loc>
+         <lastmod>2023-12-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/lessons/01-hello-world/</loc>
+         <lastmod>2023-12-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/lessons/langchain-in-13-minutes/</loc>
+         <lastmod>2023-12-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/setup/</loc>
+         <lastmod>2023-12-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/setup/env-test/</loc>
+         <lastmod>2023-12-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/setup/jupyter-notebook/</loc>
+         <lastmod>2023-12-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/setup/openai/</loc>
+         <lastmod>2023-12-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/setup/pinecone/</loc>
+         <lastmod>2023-12-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/setup/vscode/</loc>
          <lastmod>2023-12-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
