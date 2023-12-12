@@ -12,9 +12,13 @@
         <meta name="author" content="Dan McCreary">
       
       
-        <link rel="canonical" href="https://dmccreary.github.io/microsims/pinecode/">
+        <link rel="canonical" href="https://dmccreary.github.io/microsims/jupyter-notebook/">
       
       
+        <link rel="prev" href="../pinecone/">
+      
+      
+        <link rel="next" href="../references/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +26,7 @@
     
     
       
-        <title>Pinecone - Micro Simulations for Education</title>
+        <title>Jupyter Notebook - Micro Simulations for Education</title>
       
     
     
@@ -64,11 +68,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Pinecone - Micro Simulations for Education" >
+        <meta  property="og:title"  content="Jupyter Notebook - Micro Simulations for Education" >
       
         <meta  property="og:description"  content="Resources for teaching classes on Micro Simulators using generative AI and ChatGPT." >
       
-        <meta  property="og:image"  content="https://dmccreary.github.io/microsims/assets/images/social/pinecode.png" >
+        <meta  property="og:image"  content="https://dmccreary.github.io/microsims/assets/images/social/jupyter-notebook.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -76,15 +80,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://dmccreary.github.io/microsims/pinecode/" >
+        <meta  property="og:url"  content="https://dmccreary.github.io/microsims/jupyter-notebook/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Pinecone - Micro Simulations for Education" >
+        <meta  name="twitter:title"  content="Jupyter Notebook - Micro Simulations for Education" >
       
         <meta  name="twitter:description"  content="Resources for teaching classes on Micro Simulators using generative AI and ChatGPT." >
       
-        <meta  name="twitter:image"  content="https://dmccreary.github.io/microsims/assets/images/social/pinecode.png" >
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/microsims/assets/images/social/jupyter-notebook.png" >
       
     
     
@@ -100,7 +104,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pinecone" class="md-skip">
+        <a href="#jupyter-notebook" class="md-skip">
           Skip to content
         </a>
       
@@ -136,7 +140,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pinecone
+              Jupyter Notebook
             
           </span>
         </div>
@@ -293,7 +297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../openai.md" class="md-nav__link">
+      <a href="../openai/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -313,7 +317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pinecone.md" class="md-nav__link">
+      <a href="../pinecone/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -322,6 +326,138 @@
   
 
       </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Jupyter Notebook
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Jupyter Notebook
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#load-environment-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Load Environment Variables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-basic-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run Basic Query
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-langchain-imports" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run LangChain Imports
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#have-gpt-generate-python-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Have GPT generate Python Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#import-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Prompts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-with-prompt-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run With Prompt Template
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-langchain-to-build-a-prompt-only-response-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use LangChain to Build a Prompt Only Response Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequential-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sequential Chain
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -453,27 +589,72 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#environment-settings" class="md-nav__link">
+  <a href="#load-environment-variables" class="md-nav__link">
     <span class="md-ellipsis">
-      Environment Settings
+      Load Environment Variables
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#pinecone-project" class="md-nav__link">
+  <a href="#run-basic-query" class="md-nav__link">
     <span class="md-ellipsis">
-      Pinecone Project
+      Run Basic Query
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#pinecone-ai-agent-api-key" class="md-nav__link">
+  <a href="#run-langchain-imports" class="md-nav__link">
     <span class="md-ellipsis">
-      Pinecone AI Agent API Key
+      Run LangChain Imports
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#have-gpt-generate-python-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Have GPT generate Python Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#import-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Prompts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-with-prompt-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run With Prompt Template
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-langchain-to-build-a-prompt-only-response-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use LangChain to Build a Prompt Only Response Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequential-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sequential Chain
     </span>
   </a>
   
@@ -497,28 +678,104 @@
   
 
 
-<h1 id="pinecone">Pinecone</h1>
-<p>Free Tier:</p>
-<p>Limited to one index and one project.
-Community Support Only</p>
-<h2 id="environment-settings">Environment Settings</h2>
-<p>Make sure to put .env in your .gitignore file to
-make sure that you don't put this fine on GitHub</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nv">PINECONE_ENV</span><span class="o">=</span><span class="s2">&quot;...&quot;</span>
-<span class="nv">PINECONE_API_KEY</span><span class="o">=</span><span class="s2">&quot;...&quot;</span>
-</code></pre></div></td></tr></table></div>
-<p>The free version uses the Google Cloud Platform:</p>
+<h1 id="jupyter-notebook">Jupyter Notebook</h1>
+<p>Here are some samples of using the LangChain APIs.</p>
+<h2 id="load-environment-variables">Load Environment Variables</h2>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;...&quot;</span>
-<span class="nv">PINECONE_API_KEY</span><span class="o">=</span><span class="s2">&quot;...&quot;</span>
-<span class="nv">PINECONE_ENV</span><span class="o">=</span><span class="s2">&quot;gcp-starter&quot;</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Load environment variables</span>
+
+<span class="kn">from</span> <span class="nn">dotenv</span> <span class="kn">import</span> <span class="n">load_dotenv</span><span class="p">,</span><span class="n">find_dotenv</span>
+<span class="n">load_dotenv</span><span class="p">(</span><span class="n">find_dotenv</span><span class="p">())</span>
 </code></pre></div></td></tr></table></div>
-<h2 id="pinecone-project">Pinecone Project</h2>
-<p><img alt="Pinecone admin project" src="../img/pinecone-admin-project.png" /></p>
-<h2 id="pinecone-ai-agent-api-key">Pinecone AI Agent API Key</h2>
-<p><img alt="Pinecone admin project" src="./img/pinecone-admin-api-key" /></p>
+<p><img alt="" src="../img/jupyter-imports.png" /></p>
+<h2 id="run-basic-query">Run Basic Query</h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Run basic query with OpenAI wrapper</span>
+
+<span class="kn">from</span> <span class="nn">langchain.llms</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+<span class="n">llm</span> <span class="o">=</span> <span class="n">OpenAI</span><span class="p">(</span><span class="n">model_name</span><span class="o">=</span><span class="s2">&quot;text-davinci-003&quot;</span><span class="p">)</span>
+<span class="n">llm</span><span class="p">(</span><span class="s2">&quot;explain large language models in one sentence&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+<p><img alt="" src="jupyter-run-basic-query.png" /></p>
+<h2 id="run-langchain-imports">Run LangChain Imports</h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># import schema for chat messages and ChatOpenAI in order to query chatmodels GPT-3.5-turbo or GPT-4</span>
+
+<span class="kn">from</span> <span class="nn">langchain.schema</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">AIMessage</span><span class="p">,</span>
+    <span class="n">HumanMessage</span><span class="p">,</span>
+    <span class="n">SystemMessage</span>
+<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">langchain.chat_models</span> <span class="kn">import</span> <span class="n">ChatOpenAI</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="have-gpt-generate-python-code">Have GPT generate Python Code</h2>
+<p>In this example, we combine the System Message with the Human Message.
+The API will concatenate them together and send it to OpenAI.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">chat</span> <span class="o">=</span> <span class="n">ChatOpenAI</span><span class="p">(</span><span class="n">model_name</span><span class="o">=</span><span class="s2">&quot;gpt-3.5-turbo&quot;</span><span class="p">,</span><span class="n">temperature</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+<span class="n">messages</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">SystemMessage</span><span class="p">(</span><span class="n">content</span><span class="o">=</span><span class="s2">&quot;You are an expert data scientist&quot;</span><span class="p">),</span>
+    <span class="n">HumanMessage</span><span class="p">(</span><span class="n">content</span><span class="o">=</span><span class="s2">&quot;Write a Python script that trains a neural network on simulated data &quot;</span><span class="p">)</span>
+<span class="p">]</span>
+<span class="n">response</span><span class="o">=</span><span class="n">chat</span><span class="p">(</span><span class="n">messages</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">content</span><span class="p">,</span><span class="n">end</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+<p><img alt="" src="../img/jupyter-gen-python-code.png" /></p>
+<h2 id="import-prompts">Import Prompts</h2>
+<p><img alt="" src="../img/jupyter-import-prompts.png" /></p>
+<h2 id="run-with-prompt-template">Run With Prompt Template</h2>
+<p><img alt="" src="../img/jupyter-run-prompt-template.png" /></p>
+<h2 id="use-langchain-to-build-a-prompt-only-response-pipeline">Use LangChain to Build a Prompt Only Response Pipeline</h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Import LLMChain and define chain with language model and prompt as arguments.</span>
+
+<span class="kn">from</span> <span class="nn">langchain.chains</span> <span class="kn">import</span> <span class="n">LLMChain</span>
+<span class="n">chain</span> <span class="o">=</span> <span class="n">LLMChain</span><span class="p">(</span><span class="n">llm</span><span class="o">=</span><span class="n">llm</span><span class="p">,</span> <span class="n">prompt</span><span class="o">=</span><span class="n">prompt</span><span class="p">)</span>
+
+<span class="c1"># Run the chain only specifying the input variable.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">chain</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;autoencoder&quot;</span><span class="p">))</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="sequential-chain">Sequential Chain</h2>
+<p>Here we put two components together to form a chain.  The output of <code>chain</code> is fed into <code>chain_two</code></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Define a sequential chain using the two chains above: the second chain takes the output of the first chain as input</span>
+
+<span class="kn">from</span> <span class="nn">langchain.chains</span> <span class="kn">import</span> <span class="n">SimpleSequentialChain</span>
+<span class="n">overall_chain</span> <span class="o">=</span> <span class="n">SimpleSequentialChain</span><span class="p">(</span><span class="n">chains</span><span class="o">=</span><span class="p">[</span><span class="n">chain</span><span class="p">,</span> <span class="n">chain_two</span><span class="p">],</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Run the chain specifying only the input variable for the first chain.</span>
+<span class="n">explanation</span> <span class="o">=</span> <span class="n">overall_chain</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;autoencoder&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">explanation</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
 
 
 
@@ -554,6 +811,44 @@ make sure that you don't put this fine on GitHub</p>
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../pinecone/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pinecone Settings">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Pinecone Settings
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../references/" class="md-footer__link md-footer__link--next" aria-label="Next: References">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                References
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
