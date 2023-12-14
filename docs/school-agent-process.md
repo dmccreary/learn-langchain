@@ -7,11 +7,17 @@ we can then start to apply these skills in a school system.
 Here are the steps to do this.
 
 ## 1. Assessment of Needs and Challenges
+- **School or District Strategy** Understand the strategic goals of the school or district.  What is their mission and values? What
+are the unique needs of their community?  How does their student population vary?
 - **Survey Staff:** Conduct detailed surveys with teachers and administrators to understand their daily tasks, challenges, and areas where they feel overwhelmed or inefficient.
 - **Identify Repetitive Tasks:** Pinpoint repetitive and time-consuming tasks like grading, attendance tracking, scheduling, and administrative paperwork.
+- **Find Regulatory Documents and Contacts:** Find what the regulatory guidelines are for accessing data about teachers and students.  Find the key
+contacts in legal, security and ethics who will approve any projects that use sensitive data.  Verify
+that all team members are familiar with the Family Educational Rights and Privacy Act [FERPA](https://studentprivacy.ed.gov/faq/what-ferpa).
 
-## 2. Introduction to Intelligent Agents
-- **Educational Workshops:** Organize workshops to educate staff about intelligent agents, their capabilities, and potential benefits.  Include exposure to tools such as ChatGPT and MagicSchool.ai.
+## 2. Introduction to Generative AI and Intelligent Agents
+- **Educational Workshops:** Organize workshops to educate staff about intelligent agents, their capabilities, potential benefits, and limitations.  
+Include exposure to tools such as ChatGPT and MagicSchool.ai.
 - **Focus on Prompt Skills** Focus on simple skills such as designing prompts
 to get a clear understanding of what can and can't be done with generative AI tools.
 - **Demystify Technology:** Address common misconceptions and fears about AI, focusing on how it assists rather than replaces human roles.
@@ -22,13 +28,17 @@ to get a clear understanding of what can and can't be done with generative AI to
   - Attendance and behavior tracking.
   - Scheduling and calendar management.
   - Streamlining communication between parents, teachers, and students.
+  - Generation of lesson plans customized to different groups
+  - Generation of interactive teaching tools such as [Micro Simulators](https://dmccreary.github.io/microsims/) that can be
+  customized by generative AI
+- **Alignment of Tools with School Policy:** Review the school policy to make sure that tools are used in accordance with the school, district, state and national policy guidelines.
 
-## 4. Customization and Integration
-- **Collaborate with Developers:** Work with AI developers to customize tools for specific school needs, integrating with existing school management systems.
-- **Data Privacy and Security:** Ensure all tools comply with privacy laws like FERPA, protecting student data.
+## 4. Customization and Integration Projects
+- **Collaborate with Developers:** Work with AI developers, teachers and students to customize tools for specific school needs, integrating with existing school management systems.
+- **Data Privacy and Security:** Ensure all projects comply with privacy laws protecting student data.
 
 ## 5. Pilot Programs
-- **Implement Pilot Programs:** Start with pilot programs in select classrooms or administrative departments.
+- **Implement Pilot Programs:** Start with pilot programs in select classrooms or administrative departments.  Look for teachers who are visionary thought leaders that can help others understand both the pros and cons of AI in the classroom.
 - **Collect Feedback:** Regularly collect feedback from users to understand the effectiveness and any issues.
 
 ## 6. Training and Support
