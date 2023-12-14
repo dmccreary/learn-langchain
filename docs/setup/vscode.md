@@ -4,8 +4,8 @@
 
 Code -> Settings -> Extensions ->
 
-![](./img/vscode-extension-jupyter.png)
+![](../img/vscode-extension-jupyter.png)
 
 ## Configure to use the LangChain Conda Env
 
-![](./img/vscode-conda.png)
+![](../img/vscode-conda.png)

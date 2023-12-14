@@ -14,11 +14,14 @@ nav:
     - Pinecone Settings: setup/pinecone.md
     - Jupyter Notebook: setup/jupyter-notebook.md
     - Environment Test: setup/env-test.md
+    - VS Code: setup/vscode.md
   - Lessons:
     - Introduction: lessons/index.md
     - Hello World: lessons/01-hello-world.md
     - LangChain in 13 Minutes: lessons/langchain-in-13-minutes.md
+  - School Agent Process: school-agent-process.md
   - Advanced Topics: advanced-topics.md
+  - Presentations: presentations.md
   - References: references.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
