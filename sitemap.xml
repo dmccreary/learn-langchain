@@ -2,92 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/about/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/advanced-topics/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/contacts/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/glossary/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/how-we-built-this-site/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/license/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/presentations/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/references/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/learn-langchain/school-agent-process/</loc>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/lessons/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/lessons/01-hello-world/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/lessons/langchain-in-13-minutes/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/setup/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/setup/env-test/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/setup/jupyter-notebook/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/setup/openai/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/setup/pinecone/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dmccreary.github.io/learn-langchain/setup/vscode/</loc>
-         <lastmod>2023-12-12</lastmod>
+         <lastmod>2023-12-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
