@@ -11,7 +11,9 @@ Here are the steps to do this.
 - **Identify Repetitive Tasks:** Pinpoint repetitive and time-consuming tasks like grading, attendance tracking, scheduling, and administrative paperwork.
 
 ## 2. Introduction to Intelligent Agents
-- **Educational Workshops:** Organize workshops to educate staff about intelligent agents, their capabilities, and potential benefits.
+- **Educational Workshops:** Organize workshops to educate staff about intelligent agents, their capabilities, and potential benefits.  Include exposure to tools such as ChatGPT and MagicSchool.ai.
+- **Focus on Prompt Skills** Focus on simple skills such as designing prompts
+to get a clear understanding of what can and can't be done with generative AI tools.
 - **Demystify Technology:** Address common misconceptions and fears about AI, focusing on how it assists rather than replaces human roles.
 
 ## 3. Selection of Suitable Intelligent Agent Tools
