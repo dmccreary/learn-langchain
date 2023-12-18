@@ -20,6 +20,7 @@ nav:
     - Hello World: lessons/01-hello-world.md
     - LangChain in 13 Minutes: lessons/langchain-in-13-minutes.md
   - School Agent Process: school-agent-process.md
+  - U of MN EECS Seminar: u-of-MN-eecs-course.md
   - Advanced Topics: advanced-topics.md
   - Presentations: presentations.md
   - References: references.md
