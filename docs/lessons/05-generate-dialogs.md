@@ -16,7 +16,7 @@ Here are the sample topics:
 
 The grade levels are grades 1 to 5.
 
-For each topic, we want to generate a single paragraph discussion between
+For each topic, we want to generate a single-paragraph discussion between
 a teacher and the student on how this topic is part of robotics.
 
 ```py

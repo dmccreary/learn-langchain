@@ -7,7 +7,7 @@ completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
   max_tokens=1,
   messages=[
-    {"role": "user", "content": "What is the opposite of up?  Answer with a single word."}
+    {"role": "user", "content": "What is the opposite of up?  Answer in a single word."}
   ]
 )
 
