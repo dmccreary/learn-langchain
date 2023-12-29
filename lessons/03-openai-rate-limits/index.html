@@ -12,19 +12,21 @@
         <meta name="author" content="Dan McCreary">
       
       
+        <link rel="canonical" href="https://dmccreary.github.io/learn-langchain/lessons/03-openai-rate-limits/">
       
       
       
-      <link rel="icon" href="/learn-langchain/assets/images/favicon.png">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>Intelligent Agents for Education</title>
+        <title>OpenAI Rate Limits - Intelligent Agents for Education</title>
       
     
     
-      <link rel="stylesheet" href="/learn-langchain/assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("/learn-langchain/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -59,6 +61,32 @@
 
     
     
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="OpenAI Rate Limits - Intelligent Agents for Education" >
+      
+        <meta  property="og:description"  content="Resources for teaching classes on intelligent agents using generative AI, ChatGPT. Python and LangChain." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/lessons/03-openai-rate-limits.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/learn-langchain/lessons/03-openai-rate-limits/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="OpenAI Rate Limits - Intelligent Agents for Education" >
+      
+        <meta  name="twitter:description"  content="Resources for teaching classes on intelligent agents using generative AI, ChatGPT. Python and LangChain." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/learn-langchain/assets/images/social/lessons/03-openai-rate-limits.png" >
+      
+    
     
   </head>
   
@@ -70,6 +98,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#openai-rate-limits" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -83,7 +116,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/learn-langchain/." title="Intelligent Agents for Education" class="md-header__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
+    <a href="../.." title="Intelligent Agents for Education" class="md-header__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -103,7 +136,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              OpenAI Rate Limits
             
           </span>
         </div>
@@ -190,7 +223,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/learn-langchain/." title="Intelligent Agents for Education" class="md-nav__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
+    <a href="../.." title="Intelligent Agents for Education" class="md-nav__button md-logo" aria-label="Intelligent Agents for Education" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -220,7 +253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -240,7 +273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -288,7 +321,7 @@
         
   
   
-    <a href="/learn-langchain/setup/" class="md-nav__link">
+    <a href="../../setup/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -336,7 +369,7 @@
         
   
   
-    <a href="/learn-langchain/lessons/" class="md-nav__link">
+    <a href="../" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -362,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/school-agent-process/" class="md-nav__link">
+      <a href="../../school-agent-process/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -382,7 +415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/u-of-mn-eecs-course/" class="md-nav__link">
+      <a href="../../u-of-mn-eecs-course/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -402,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/advanced-topics/" class="md-nav__link">
+      <a href="../../advanced-topics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -422,7 +455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/presentations/" class="md-nav__link">
+      <a href="../../presentations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -442,7 +475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/references/" class="md-nav__link">
+      <a href="../../references/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -462,7 +495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/glossary/" class="md-nav__link">
+      <a href="../../glossary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -482,7 +515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/how-we-built-this-site/" class="md-nav__link">
+      <a href="../../how-we-built-this-site/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -502,7 +535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/license/" class="md-nav__link">
+      <a href="../../license/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -522,7 +555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/learn-langchain/contacts/" class="md-nav__link">
+      <a href="../../contacts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -552,6 +585,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -563,8 +598,41 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+  
+
+
+<h1 id="openai-rate-limits">OpenAI Rate Limits</h1>
+<p>If you get the OpenAI 429 error:</p>
+<div class="highlight"><pre><span></span><code>raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {&#39;error&#39;: {&#39;message&#39;: &#39;You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.&#39;, &#39;type&#39;: &#39;insufficient_quota&#39;, &#39;param&#39;: None, &#39;code&#39;: &#39;insufficient_quota&#39;}}
+</code></pre></div>
+<p>You can see what Tier you are on here:</p>
+<p><a href="https://platform.openai.com/account/limits">Account Tier Limits</a></p>
+<p><img alt="Open AI Tier Limits" src="../../img/open-ai-tier.png" /></p>
+<p><img alt="Open AI Billing Settings" src="../../img/openai-billing-setting.png" /></p>
+<p><img alt="Open AI Add to Credit Balance" src="../../img/openai-add-to-credit-balance.png" /></p>
+<p><img alt="Open AI Usage Monitoring" src="../../img/openai-usage-monitoring.png" /></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
               </article>
             </div>
           
@@ -606,10 +674,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/learn-langchain/", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "/learn-langchain/assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/learn-langchain/assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>
