@@ -98,11 +98,21 @@ A Lesson Plan is a teacher's detailed description of the course of instruction f
 #### LLMs (Large Language Models)
 LLMs, or Large Language Models, are advanced AI models trained on vast datasets to understand, interpret, and generate human language. Examples include OpenAI's GPT (Generative Pre-trained Transformer) series.
 
+#### LLM+P
+
+* [LLM+P: Empowering Large Language Models with Optimal Planning Proficiency](https://arxiv.org/abs/2304.11477)
+
 #### Neural Network
 A Neural Network is a computational model inspired by the structure of the human brain. It consists of interconnected nodes, or 'neurons,' organized in layers. Each connection can transmit a signal from one neuron to another. The receiving neuron processes the signal and signals downstream neurons connected to it. Neural networks are used in machine learning for pattern recognition and data classification, among other tasks.
 
 #### OpenAI
 OpenAI is an AI research lab consisting of the for-profit corporation OpenAI LP and its parent company, the non-profit OpenAI Inc. OpenAI is known for its work in the field of artificial intelligence, including the development of the GPT series of language models.
+
+#### Planning Domain Definition Language (PDDL)
+
+A formal language used in business and technology sectors to define and model complex planning and scheduling tasks. PDDL allows organizations to articulate the structure of a planning domain, the initial conditions, and the desired goals. 
+
+PDDL is primarily used in AI-driven systems to automate decision-making processes, optimize resource allocation, and manage complex logistical operations. By employing PDDL, businesses can efficiently model various scenarios, simulate outcomes, and develop strategic plans that are robust, flexible, and adaptable to changing conditions. This language is instrumental in industries like manufacturing, supply chain management, robotics, and any field where automated planning is essential.
 
 #### Pinecone
 Pinecone is a scalable vector database service that enables efficient vector search and storage. It's used for managing high-dimensional vector embeddings in machine learning applications, particularly in natural language processing.
