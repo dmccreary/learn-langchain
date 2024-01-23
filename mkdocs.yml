@@ -15,6 +15,9 @@ nav:
     - Jupyter Notebook: setup/jupyter-notebook.md
     - Environment Test: setup/env-test.md
     - VS Code: setup/vscode.md
+  - Assignments:
+    - Introduction: assignments/index.md
+    - Bouncing Ball: assignments/01-bouncing-ball.md
   - Lessons:
     - Introduction: lessons/index.md
     - Hello World: lessons/01-hello-world.md
