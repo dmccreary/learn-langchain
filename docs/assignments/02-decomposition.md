@@ -2,7 +2,7 @@
 
 The goal of this week is to learn how to use GPT-4 along with the process of decomposing large problems into a set of smaller problems.
 If we assume that GPT-4 can write about 50 lines of p5.js code at
-a time, how do we break a large program into smaller functions.
+a time, how do we break a large program into smaller functions?
 
 ## Logic Gate Example
 
@@ -15,6 +15,12 @@ symbols in digital circuit design.
 
 This is a hard problem to tackle in a single prompt/response pair.
 But we can ask GPT-4 to draw a single logic gate and then use that as a template to do successive logic gates.  Here is a [sample dialog](https://chat.openai.com/g/g-yLEKOCjXP-p5-js-visual-art-composer/c/2870503f-06d6-4a7f-9189-e59c7747f023) of this with GPT-4 and using the [p5.js custom GPT tool](https://chat.openai.com/g/g-yLEKOCjXP-p5-js-visual-art-composer).
+
+There are a few things to note in this dialog.  It went well for the simple diagrams like buffer (just a triangle) and inverter.  But it
+totally failed to generate the correct math for the curves on the OR gates.
+To do this I had to manually help it write the code for the equations
+that draw the curves correctly.  But once the first OR curves were
+done the NOR, XOR and XNOR were trivial for GPT-4 to render.
 
 ## Your Assignment
 
