@@ -6,6 +6,6 @@ a time, how do we break a large program into smaller functions?
 
 ## Examples
 
-[Analog Circuits](./02a-decomposition-analog.md)
-[Signals and Systems](./02a-decomposition-analog.md)
-[Digital Logic Gates](./02c-decomposition-logic-gates.md)
+1. [Analog Circuits](./02a-decomposition-analog.md)
+2. [Signals and Systems](./02a-decomposition-analog.md)
+3. [Digital Logic Gates](./02c-decomposition-logic-gates.md)
