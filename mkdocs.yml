@@ -19,7 +19,7 @@ nav:
     - Introduction: assignments/index.md
     - Bouncing Ball: assignments/01-bouncing-ball.md
     - Decomposition: assignments/02-decomposition.md
-    - Decomposition Analog Circuits: assignments/02a-decomposition-analog
+    - Decomposition Analog Circuits: assignments/02a-decomposition-analog.md
   - Lessons:
     - Introduction: lessons/index.md
     - Hello World: lessons/01-hello-world.md
