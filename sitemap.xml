@@ -81,6 +81,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://dmccreary.github.io/learn-langchain/assignments/02c-decomposition-logic-gates/</loc>
+         <lastmod>2024-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://dmccreary.github.io/learn-langchain/lessons/</loc>
          <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
