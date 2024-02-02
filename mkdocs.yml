@@ -18,7 +18,7 @@ nav:
   - Assignments:
     - Introduction: assignments/index.md
     - Bouncing Ball: assignments/01-bouncing-ball.md
-    - Decomposition Logic Gates: assignments/02-decomposition-logic-gates.md
+    - Decomposition Logic Gates: assignments/02c-decomposition-logic-gates.md
     - Decomposition Analog Circuits: assignments/02a-decomposition-analog.md
     - Decomposition Signals and Systems: assignments/02b-decomposition-signals-and-systems.md
   - Lessons:
