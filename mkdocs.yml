@@ -19,6 +19,7 @@ nav:
     - Introduction: assignments/index.md
     - Bouncing Ball: assignments/01-bouncing-ball.md
     - Decomposition: assignments/02-decomposition.md
+    - Decomposition Analog Circuits: assignments/02a-decomposition-analog
   - Lessons:
     - Introduction: lessons/index.md
     - Hello World: lessons/01-hello-world.md
@@ -26,6 +27,8 @@ nav:
   - Simulations:
     - Introduction: sims/index.md
     - Logic Gates: sims/logic-gates/index.md
+    - Flip Flop: sims/flip-flop/index.md
+    - Op-Amp: sims/op-amp/index.md
   - School Agent Process: school-agent-process.md
   - U of MN EECS Seminar: u-of-mn-eecs-course.md
   - Advanced Topics: advanced-topics.md
