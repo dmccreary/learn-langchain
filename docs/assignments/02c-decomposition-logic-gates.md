@@ -1,8 +1,8 @@
-# Decomposition
+# Decomposition of Drawing Digital Logic Gates
 
-The goal of this week is to learn how to use GPT-4 along with the process of decomposing large problems into a set of smaller problems.
-If we assume that GPT-4 can write about 50 lines of p5.js code at
-a time, how do we break a large program into smaller functions?
+![](../sims/logic-gates/logic-gates.png)
+
+[Go to the MicroSim Page](../sims/logic-gates/index.md)
 
 ## Logic Gate Example
 
