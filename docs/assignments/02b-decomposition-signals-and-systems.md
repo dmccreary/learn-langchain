@@ -1,8 +1,10 @@
 # Decomposition for Signals & Systems Course
 
+![](../sims/fourier/fourier.png)
+
 [ChatGPT Dialog](https://chat.openai.com/share/aa265d2a-04ea-4b96-bd0c-fd90afff7e49)
 
-[Result](https://editor.p5js.org/dmccreary/sketches/wYldHNZnJ)
+[Edit Fourier MicroSim](https://editor.p5js.org/dmccreary/sketches/wYldHNZnJ)
 
 ## Prompt
 
