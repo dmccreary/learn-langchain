@@ -1,5 +1,12 @@
 # Decomposition of the Signals, Circuits & Electronics Course
 
+## Course Description
+
+We can get a detailed description of the course from
+the course description:
+
+[EE 2015 - Signals, Circuits and Electronics](https://onestop2.umn.edu/pcas/viewCatalogCourse.do?courseId=818943)
+
 ## Sample Prompt
 
 I am teaching a course called Signals, Circuits & Electronics.

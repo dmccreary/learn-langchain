@@ -1,6 +1,9 @@
 # Decomposition for Signals & Systems Course
 
 ![](../sims/fourier/fourier.png)
+## Course Description
+
+[EE 3015 - Signals and Systems](https://onestop2.umn.edu/pcas/viewCatalogCourse.do?courseId=004489)
 
 [ChatGPT Dialog](https://chat.openai.com/share/aa265d2a-04ea-4b96-bd0c-fd90afff7e49)
 
